@@ -25,7 +25,7 @@ class Vertex:
         '''
 
         '''
-        return self.connected_to.keys()
+        return [x.ID for x in self.connected_to]
 
     def get_ID(self):
         '''
